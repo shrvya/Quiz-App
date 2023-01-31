@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-home{
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+   align-content: center;
+  align-items: center; 
+  height: 500px;
+  width:500px;
+  margin-left:30%;
+  margin-top: 5%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.start{
+  background-color: blue;
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0.2rem;
+}
+.quiz-page{
+  background-color:palevioletred ;
+}
+.quiz{
+  height: 55px;
+  background-color: brown;
+  align-items: center;
+}
+.quiz-title{
+  padding-top: 10px;
+}
+.options{
+  width: 550px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.options>*{
+  width: 105px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.button-1-3-Paris,.button-2-2-ElonMusk,.button-3-1-Apple,.button-4-4-7{
+  width: 105px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.each-option{
+  background-color: #eef4f6;
+}
+
+.button-1-3-Paris,.button-2-2-ElonMusk,.button-3-1-Apple,.button-4-4-7{
+  background-color: #97ce9f;
+}
+.question{
+  font-size:large;
+}
+.options-parent{
+  display: -webkit-inline-box;
+  padding-top: 5px;
+}
+.quiz-div{
+  display: grid;
+  row-gap: 45px;
+  padding-bottom: 55px;
+  padding-top: 42px;
+}

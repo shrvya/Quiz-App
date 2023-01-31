@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  }
+  a {
+    text-decoration: inherit;
+    color: inherit;
+  }
+  /*thin scrollbar*/
+  *::-webkit-scrollbar{
+    width: 8px;
+  }
+  
+.App{
+min-height: 98vh;
+border: 8px solid rgb(66, 65, 65);
+margin: 5px;
+padding: 5px;
+}
